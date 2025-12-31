@@ -214,7 +214,7 @@ const App: React.FC = () => {
     <div className="max-w-4xl mx-auto space-y-16 animate-in slide-in-from-bottom-4">
       <section className="bg-white/40 p-10 rounded-[3rem] border border-white/50 backdrop-blur-md shadow-inner">
         <h2 className="font-serif text-3xl mb-8 flex items-center gap-3">
-          <span className="text-3xl">𓉴</span> The Blueprint of Life
+          <span className="text-3xl">🏛️</span> The Blueprint of Life
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           {pillars.map(p => (
@@ -804,9 +804,9 @@ const App: React.FC = () => {
 
       <nav className="fixed bottom-10 left-1/2 -translate-x-1/2 z-50 glass-card px-8 py-5 rounded-[2.5rem] flex gap-8 shadow-2xl border border-white/50 backdrop-blur-xl">
         {[
-          { id: 'GARDEN' as ViewType, icon: '🏛️', label: 'Sanctuary' },
+          { id: 'GARDEN' as ViewType, icon: '🌿', label: 'Sanctuary' },
           { id: 'TIMELINE' as ViewType, icon: '📜', label: 'Scroll' },
-          { id: 'ARCHITECT' as ViewType, icon: '𓉴', label: 'Architect' },
+          { id: 'ARCHITECT' as ViewType, icon: '🏛️', label: 'Architect' },
           { id: 'RITUALS' as ViewType, icon: '🏺', label: 'Rituals' },
           { id: 'CALENDAR' as ViewType, icon: '🌞', label: 'Solar Cycle' },
           { id: 'SETTINGS' as ViewType, icon: '⚙️', label: 'Scribe' }

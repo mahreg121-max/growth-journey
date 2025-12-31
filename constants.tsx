@@ -27,6 +27,14 @@ export const PILLARS: Pillar[] = [
     gradient: 'from-slate-400 to-slate-600'
   },
   {
+    id: 'finances',
+    name: "The Royal Treasury",
+    icon: '🪙',
+    description: 'Cultivating wealth and managing resources to build a lasting legacy.',
+    color: '#fbbf24',
+    gradient: 'from-yellow-400 to-amber-500'
+  },
+  {
     id: 'emotional',
     name: "River of Serenity",
     icon: '🌊',
